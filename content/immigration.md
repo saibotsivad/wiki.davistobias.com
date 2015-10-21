@@ -1,7 +1,8 @@
 ---
 title: Immigration
 subtitle: References and notes on developing a complete Christian perspective on the topic of immigration.
-updated: 2015-10-20 22:55
+date: 2015-10-20
+updated: 2015-10-20
 ---
 
 > This page is a giant holding spot for a work-in-progress. Eventually I

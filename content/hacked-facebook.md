@@ -1,5 +1,8 @@
+---
 title: Fix a Hacked Facebook
-updated: 2013-11-07 23:54
+updated: 2013-11-07
+date: 2015-10-20
+---
 
 
 You've probably been linked here because you had your Facebook privacy compromised. Let's fix that.
