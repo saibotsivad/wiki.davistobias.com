@@ -1,4 +1,7 @@
-# Welcome
+---
+title: Welcome
+---
+
 
 There's not a lot here yet.
 
