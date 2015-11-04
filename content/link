@@ -3,4 +3,4 @@ title: smart internal link
 markdown: false
 ---
 
-{{# current !== this.1 }}<a href="{{pathPrefix}}{{pagePathPrefix}}{{this.1}}">{{this.2}}</a>{{/ end of filter }}{{# current === this.1 }}<strong>{{2}}</strong>{{/ end of filter }}
+<a href="#!/{{this.1}}">{{this.2}}</a>
