@@ -1,0 +1,6 @@
+---
+title: link to the Bible
+markdown: false
+---
+
+<a href="https://www.biblegateway.com/passage/?search={{this.1}}&version={{ this.2 || 'ESV' }}">{{1}}</a>
