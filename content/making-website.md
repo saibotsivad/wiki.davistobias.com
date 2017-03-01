@@ -36,6 +36,11 @@ touch public/index.html
     "build": "browserify main.js > public/bundle.js",
     "watch": "watchify main.js > public/bundle.js -dv",
     "start": "ecstatic public -p 3000"
+  },
+  "browserify": {
+    "transform": [
+      [ "babelify", { "presets": "es2015" } ]
+    ]
   }
 }
 ```
@@ -50,14 +55,15 @@ touch public/index.html
 ## edit `public/index.html`
 
 ```html
-<script src="bundle.js"></script>
-<body></body>
+<body>
+  <script src="bundle.js"></script>
+</body>
 ```
 
 ## install dependencies
 
 ```bash
-npm install --save browserify watchify ecstatic yo-yo
+npm install --save browserify watchify babelify babel-preset-es2015 ecstatic yo-yo
 ```
 
 ## edit `main.js`
@@ -88,4 +94,11 @@ function onclick() {
 ```bash
 git add .
 git commit -m "init"
+```
+
+## build
+
+```bash
+npm run build
+npm start
 ```
