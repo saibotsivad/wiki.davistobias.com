@@ -21,9 +21,10 @@ cd my-website
 
 ```bash
 git init
-mkdir public
 touch package.json
+touch .gitignore
 touch main.js
+mkdir public
 touch public/index.html
 ```
 
@@ -35,7 +36,15 @@ touch public/index.html
     "build": "browserify main.js > public/bundle.js",
     "watch": "watchify main.js > public/bundle.js -dv",
     "start": "ecstatic public -p 3000"
+  }
 }
+```
+
+## edit `.gitignore`
+
+```txt
+/node_modules
+/public/build.js
 ```
 
 ## edit `public/index.html`
@@ -72,4 +81,11 @@ function onclick() {
   state.n++
   update()
 }
+```
+
+## commit changes
+
+```bash
+git add .
+git commit -m "init"
 ```
